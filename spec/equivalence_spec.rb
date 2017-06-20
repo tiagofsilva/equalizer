@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-describe Equalizer do
+describe Equivalence do
 	
 	let(:klass) { Class.new }
 	let(:instance) { klass.new }
@@ -13,7 +13,7 @@ describe Equalizer do
 
 	context 'when it has no keys' do
 		
-		subject { Equalizer.new }
+		subject { Equivalence.new }
 
 		describe '#eqvl?' do
 			it 'returns true for equivalent objects' do
@@ -42,7 +42,7 @@ describe Equalizer do
 	    end
 		end
 
-		subject { Equalizer.new(*keys) }
+		subject { Equivalence.new(*keys) }
 		let(:instance) { klass.new(1, 2, 3) }
 
 		describe '#eqvl?' do

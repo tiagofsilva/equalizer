@@ -1,4 +1,4 @@
-class Equalizer < Module
+class Equivalence < Module
 
 	def initialize(*attrs)
 		@attrs = attrs

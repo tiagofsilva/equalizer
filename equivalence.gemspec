@@ -2,13 +2,13 @@ lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |spec|
-  spec.name        = 'equalizer'
+  spec.name        = 'equivalence'
   spec.version     = '0.1'
   spec.authors     = ['Tiago Silva (tiagofsilva)']
   spec.email       = %w[aeroboom@gmail.com ]
   spec.description = 'Module to define equivalence method (eqvl?)'
   spec.summary     = spec.description
-  spec.homepage    = 'https://github.com/tiagofsilva/equalizer'
+  spec.homepage    = 'https://github.com/tiagofsilva/equivalence'
   spec.licenses    = 'MIT'
 
   spec.require_paths    = %w[lib]

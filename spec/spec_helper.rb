@@ -1,4 +1,4 @@
-require_relative '../lib/equalizer'
+require_relative '../lib/equivalence'
 
 RSpec.configure do |config|
   config.order = 'random'

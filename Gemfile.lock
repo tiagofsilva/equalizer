@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    equalizer (0.1)
+    equivalence (0.1)
 
 GEM
   remote: https://rubygems.org/
@@ -26,7 +26,7 @@ PLATFORMS
 
 DEPENDENCIES
   bundler (~> 1.13)
-  equalizer!
+  equivalence!
   rspec (~> 3.5.0)
 
 BUNDLED WITH
