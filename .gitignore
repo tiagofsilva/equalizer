@@ -1,0 +1,16 @@
+
+# OSX crap
+.DS_Store
+
+#emacs backup files
+*~
+\#*#
+
+# Vim swap files
+**/*.swp
+
+#developer trash
+.shellenv
+
+#code style config
+.editorconfig
