@@ -1,6 +1,3 @@
-lib = File.expand_path('../lib', __FILE__)
-$LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-
 Gem::Specification.new do |spec|
   spec.name        = 'equivalence'
   spec.version     = '0.1'
@@ -12,9 +9,8 @@ Gem::Specification.new do |spec|
   spec.licenses    = 'MIT'
 
   spec.require_paths    = %w[lib]
-  spec.files            = `git ls-files`.split("\n")
-  spec.test_files       = `git ls-files -- spec/{unit,integration}`.split("\n")
-  spec.extra_rdoc_files = %w[LICENSE README.md CONTRIBUTING.md]
+  spec.files            = %w[lib/equivalence.rb]
+  spec.extra_rdoc_files = %w[LICENSE.md README.md]
 
   spec.required_ruby_version = '>= 2.0.0'
 
